@@ -332,7 +332,7 @@ python -m fastapi dev main.py
 The backend will run at:
 
 ```text
-http://127.0.0.1:8000
+https://ai-gym-fitness-assistant-ajkp.onrender.com
 ```
 
 ### Start Frontend
@@ -450,6 +450,37 @@ The project is designed as a web-based application with a React frontend and Fas
 For final deployment, the frontend, backend, database, AI services, authentication, admin dashboard, and analytics components can be hosted using suitable cloud infrastructure.
 
 > The current development environment uses local PostgreSQL and Ollama services. Smart Gym IoT functionality is simulated for demonstration.
+Deployment
+
+The AI Gym & Fitness Assistant was deployed using Render. The frontend, backend API, and database were configured as separate services.
+
+Live Application
+
+Frontend:
+https://ai-gym-fitness-assistant-1-anzv.onrender.com
+
+Backend API
+
+FastAPI Backend:
+https://ai-gym-fitness-assistant-ajkp.onrender.com
+
+API Documentation
+
+Swagger API Documentation:
+https://ai-gym-fitness-assistant-ajkp.onrender.com/docs
+
+Source Code
+
+GitHub Repository:
+https://github.com/Risna4/AI-Gym-Fitness-Assistant
+
+Deployment Status
+
+The main application, including authentication, dashboard, workout management, performance tracking, habit tracking, AI Trainer, gym planning, Smart Gym simulation, Admin Dashboard, and analytics, is deployed and accessible through the live application.
+
+The AI Dietician and Virtual Gym Buddy currently use Ollama for local LLM execution. Since a hosted LLM service has not been configured for the Render deployment, these two conversational features are currently demonstrated in the local development environment.
+
+This approach keeps the main application deployed without requiring an additional paid LLM service.
 
 ## Conclusion
 
