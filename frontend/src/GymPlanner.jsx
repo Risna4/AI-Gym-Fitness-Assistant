@@ -25,7 +25,7 @@ function GymPlanner() {
       }
 
       try {
-        const response = await fetch("http://127.0.0.1:8000/planner/", {
+        const response = await fetch("https://ai-gym-fitness-assistant-ajkp.onrender.com/planner/", {
           headers: {
             Authorization: `Bearer ${token}`
           }
@@ -72,7 +72,7 @@ function GymPlanner() {
 
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/planner/?location=${encodeURIComponent(enteredLocation)}`,
+        `https://ai-gym-fitness-assistant-ajkp.onrender.com/planner/?location=${encodeURIComponent(enteredLocation)}`,
         {
           headers: {
             Authorization: `Bearer ${token}`

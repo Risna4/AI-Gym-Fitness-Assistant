@@ -30,7 +30,7 @@ function SmartGymPage() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/smart-gym/",
+        "https://ai-gym-fitness-assistant-ajkp.onrender.com/smart-gym/",
         {
           headers: {
             Authorization: `Bearer ${token}`
@@ -162,7 +162,7 @@ function SmartGymPage() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/smart-gym/start",
+        "https://ai-gym-fitness-assistant-ajkp.onrender.com/smart-gym/start",
         {
           method: "POST",
           headers: {
@@ -211,7 +211,7 @@ function SmartGymPage() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/smart-gym/stop",
+        "https://ai-gym-fitness-assistant-ajkp.onrender.com/smart-gym/stop",
         {
           method: "POST",
           headers: {

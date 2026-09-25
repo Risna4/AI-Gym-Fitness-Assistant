@@ -554,7 +554,7 @@ function Camera({ onWorkoutSaved }) {
     try {
       const response =
         await fetch(
-          `http://127.0.0.1:8000/workouts/?${params.toString()}`,
+          `https://ai-gym-fitness-assistant-ajkp.onrender.com/workouts/?${params.toString()}`,
           {
             method: "POST",
 

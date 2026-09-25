@@ -51,7 +51,7 @@ function App() {
 
 
     fetch(
-      "http://127.0.0.1:8000/auth/me",
+      "https://ai-gym-fitness-assistant-ajkp.onrender.com/auth/me",
       {
         headers: {
           Authorization:

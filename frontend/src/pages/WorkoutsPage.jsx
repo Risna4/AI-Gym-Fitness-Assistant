@@ -21,7 +21,7 @@ export default function WorkoutsPage() {
     }
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/workouts/", {
+      const response = await fetch("https://ai-gym-fitness-assistant-ajkp.onrender.com/workouts/", {
         headers: {
           "Accept": "application/json",
           "Authorization": `Bearer ${token}`
@@ -76,7 +76,7 @@ export default function WorkoutsPage() {
       localStorage.getItem("jwt");
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/workouts/clear-history", {
+      const response = await fetch("https://ai-gym-fitness-assistant-ajkp.onrender.com/workouts/clear-history", {
         method: "DELETE",
         headers: {
           Authorization: `Bearer ${token}`

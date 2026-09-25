@@ -38,22 +38,22 @@ function DashboardPage({ user }) {
           smartGymResponse
         ] = await Promise.all([
           fetch(
-            "http://127.0.0.1:8000/performance/",
+            "https://ai-gym-fitness-assistant-ajkp.onrender.com/performance/",
             { headers }
           ),
 
           fetch(
-            "http://127.0.0.1:8000/habit/",
+            "https://ai-gym-fitness-assistant-ajkp.onrender.com/habit/",
             { headers }
           ),
 
           fetch(
-            "http://127.0.0.1:8000/workouts/",
+            "https://ai-gym-fitness-assistant-ajkp.onrender.com/workouts/",
             { headers }
           ),
 
           fetch(
-            "http://127.0.0.1:8000/smart-gym/",
+            "https://ai-gym-fitness-assistant-ajkp.onrender.com/smart-gym/",
             { headers }
           )
         ]);

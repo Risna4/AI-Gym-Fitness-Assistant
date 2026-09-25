@@ -21,7 +21,7 @@ function HabitTracker({ refreshKey }) {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/habit/",
+        "https://ai-gym-fitness-assistant-ajkp.onrender.com/habit/",
         {
           headers: {
             Authorization:

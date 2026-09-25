@@ -17,7 +17,7 @@ function AdminDashboard() {
 
       try {
         const response = await fetch(
-          "http://127.0.0.1:8000/admin/",
+          "https://ai-gym-fitness-assistant-ajkp.onrender.com/admin/",
           {
             headers: {
               Authorization: `Bearer ${token}`

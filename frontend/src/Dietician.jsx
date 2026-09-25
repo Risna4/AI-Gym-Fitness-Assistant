@@ -31,7 +31,7 @@ function Dietician({ refreshKey }) {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/diet/",
+        "https://ai-gym-fitness-assistant-ajkp.onrender.com/diet/",
         {
           headers: {
             Authorization:
@@ -81,7 +81,7 @@ function Dietician({ refreshKey }) {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/diet/chat",
+        "https://ai-gym-fitness-assistant-ajkp.onrender.com/diet/chat",
         {
           method: "POST",
 

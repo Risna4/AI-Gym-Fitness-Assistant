@@ -20,7 +20,7 @@ function GymBuddy() {
 
       try {
         const response = await fetch(
-          "http://127.0.0.1:8000/buddy/",
+          "https://ai-gym-fitness-assistant-ajkp.onrender.com/buddy/",
           {
             headers: {
               Authorization: `Bearer ${token}`
@@ -70,7 +70,7 @@ function GymBuddy() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/buddy/chat",
+        "https://ai-gym-fitness-assistant-ajkp.onrender.com/buddy/chat",
         {
           method: "POST",
           headers: {

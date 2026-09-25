@@ -42,7 +42,7 @@ function Login({ onLogin }) {
     try {
 
       const response = await fetch(
-        "http://127.0.0.1:8000/auth/login",
+        "https://ai-gym-fitness-assistant-ajkp.onrender.com/auth/login",
         {
           method: "POST",
 
