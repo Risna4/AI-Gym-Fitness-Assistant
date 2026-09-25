@@ -10,7 +10,7 @@ import {
   useState
 } from "react";
 
-import Login from "./Login";
+import Login from "./login";
 import Register from "./register";
 
 import Layout from "./components/Layout";
