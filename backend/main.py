@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
+
 
 from database.connection import Base, engine
 
@@ -26,7 +26,7 @@ app = FastAPI(
     title="AI Gym & Fitness Assistant",
     version="1.0.0"
 )
-
+from fastapi.middleware.cors import CORSMiddleware
 
 app.add_middleware(
     CORSMiddleware,
